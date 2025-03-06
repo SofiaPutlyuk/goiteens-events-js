@@ -35,8 +35,9 @@ class BoardEvents extends React.Component {
          name:"Concert 1: The Greatest Show",
          location: "Kyiv, Ukraine",
          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3HfwMeOUkJ1IRa4Eb2hp201oFG4v-dowi9A&s",
-         start: "2025-03-10 20:00"
+         start: "2025-06-10 21:00"
       })
+
    }
    render(){
       const {name,location,img,start} = this.state
@@ -46,6 +47,7 @@ class BoardEvents extends React.Component {
       <Text>Location:{location}</Text>
       <Img src={img} alt={name} />
       <Text>Start:{start}</Text>
+      
         </Container>
       )
    }
